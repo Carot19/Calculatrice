@@ -1,7 +1,7 @@
 #Calculatrice
 #Author: RIVET Simon
 #date : 06/04/2021
-#Version : 0.0.1
+#Version : 0.0.2
 #Description : entrainement python et git, réalisation d'une calculatrice"
 
 
@@ -10,4 +10,6 @@ from tkinter import *
 
 # Création d'une fenêtre avec la classe Tk :
 fenetre = Tk()
+fenetre.geometry=("1200X1200")
+fenetre.title("Calculatrice")
 fenetre.mainloop()
